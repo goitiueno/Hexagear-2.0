@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HEXAGEAR</title>
+    <!--Link do css-->
+    <link rel="stylesheet" href="../repositorios/CSS/style.css">
+    <!--Icone na barra de guia do navegador-->
+    <link rel="shortcut icon" href="../repositorios/ICO/logomarca.ico" type="image/x-icon">
+</head>
+    <!--Corpokkkkk-->
+<body>
+  
+    <!--Titulo(o header era pra ser fixo mas as div ficavam sobrepondo ele então ficou relativo)-->
+<header>
+    <nav class="nav">
+    <!--Aqui sim é o titulo-->    
+    <h1 >
+        <strong>H</strong>EXA<Strong>G</Strong>EAR
+    </h1>
+    <!--Subtitulo-->
+    <h2 >
+        AUTO PEÇAS
+    </h2>
+   <a href="../repositorios/Plinks/login.html"><img src="../repositorios/IMG/login.png" class="loginK" alt=""> <p class="entrar">Entrar</p></a>
+    <!--Logomarca???(Foi desativado por motivos de estética)-->
+   <img src="" alt="" id="logomarca"> 
+    </nav>
+</header>
+    <!--Tópicos de navegação-->
+    <nav class="navbar">
+        <a href="../index.html">Pagina Inicial</a>
+        <a href="ofertas.html">Ofertas</a>
+        <a href="pecas.html">Peças</a>
+        <a href="acessorios.html">Acessórios</a>
+        <a href="#">Marcas</a>
+      
+
+    </nav>
+
+    <!--("Ofertas")-->
+    <div class="promocaoUm">
+    <!--      Pistão     -->
+
+        <button ondblclick="pistao()" ><img src="../repositorios/IMG/Pistão.png" alt="" >
+            <p class="tiOf">Pistão Forjado 1.9 Avulso Vw Ap 83m
+            </p>
+            <p class="tiDf">
+             <strong>R$ 570</strong> à vista <br> ou <b>10x de R$ 57</b>
+            </p>
+         <a href="../paginasWeb/pistao.html">Comprar
+
+         </a>
+     </button>
+
+    <!--      Biela      -->
+
+      <button ondblclick="biela()"><img src="../repositorios/IMG/Biela.png" alt="" >
+               <p class="tiOf">Biela do Motor 1.4 Avulsa 8v Original
+               </p>
+               <p class="tiDf">
+                <strong>R$ 214</strong> à vista <br> ou <b>10x de R$ 21,40</b>
+               </p>
+            <a href="../paginasWeb/biela.html">Comprar
+            </a>
+        </button>
+    <!--      Jogo Pino do pistão     -->   
+
+     <button ondblclick="pinos()"><img src="../repositorios/IMG/Pino do Pistão Jogo.png" alt="" >
+            <p class="tiOf">Jogo de Pino do Pistão 1.3 22x62mm 4 Unidades
+            </p>
+            <p class="tiDf">
+             <strong>R$ 130</strong> à vista <br> ou <b>10x de R$ 13</b>
+            </p>
+         <a href="../paginasWeb/pinos.html">Comprar
+
+         </a>
+     </button>
+     <!--     Valvula de Admição e Escape    -->
+
+     <button ondblclick="valvulaAE()" ><img src="../repositorios/IMG/valvula.png" alt="" >
+        <p class="tiOf">Válvula de Admissão e Exaustão 98x34x8mm
+        </p>
+        <p class="tiDf">
+         <strong>R$ 36</strong> à vista <br> ou <b>10x de R$ 3,60</b>
+        </p>
+     <a href="../paginasWeb/valvulaAE.html">Comprar
+
+     </a>
+     </button>
+     <!--    Comando de Válvulas-->
+
+     <button ondblclick="comando()" ><img src="../repositorios/IMG/Comando de Válvulas.png" style="width: 150px;" alt="" >
+    <p class="tiOf">Comando de Válvulas 1.9 2 Unidades
+    </p>
+    <p class="tiDf">
+     <strong>R$ 1045</strong> à vista <br> ou <b>10x</b> de <b>R$ 104,50</b>
+    </p>
+   <a href="../paginasWeb/comando.html">Comprar
+
+     </a>
+   </button>
+       <!--     Brônzinas    -->
+
+    <button ondblclick="bronzinas()" ><img src="../repositorios/IMG/bronzinas.png" alt="" >
+    <p class="tiOf">Jogo de Bronzina Biela 1.6 8v Metal leve 8 unidades
+    </p></label>
+    <p class="tiDf">
+     <strong >R$ 370</strong> à vista <br> ou <b>10x de R$ 37</b>
+    </p>
+   <a href="../paginasWeb/bronzinas.html">Comprar
+
+    </a>
+    </button>
+
+    <!--    Termostato    -->
+
+    <button ondblclick="termostato()" ><img src="../repositorios/IMG/termostato.png" alt="" >
+        <p class="tiOf">Termostato De Líquido De Refrigeração 1 unidade
+        </p></label>
+        <p class="tiDf">
+         <strong >R$ 90</strong> à vista <br> ou <b>10x de R$ 9</b>
+        </p>
+       <a href="../paginasWeb/termostato.html">Comprar
+    
+        </a>
+        </button>
+
+        <!--     Carburador      -->
+
+        <button ondblclick="carburador()" ><img src="../repositorios/IMG/carburador.png" alt="" >
+            <p class="tiOf">Carburador 1.5 a 1.6 (Recondicionado) 1 unidade
+            </p></label>
+            <p class="tiDf">
+             <strong >R$ 259,90</strong> à vista <br> ou <b>10x de R$ 25,90</b>
+            </p>
+           <a href="../paginasWeb/carburador.html">Comprar
+        
+            </a>
+            </button>
+
+             <!--Virabrequim-->
+
+             <button ondblclick="" ><img src="../repositorios/IMG/virabrequim.png" alt="" >
+                <p class="tiOf">Virabrequim 98mm G9 Macon 
+                </p></label>
+                <p class="tiDf">
+                 <strong >R$ 2200</strong> à vista <br> ou <b>10x de R$ 220,00</b>
+                </p>
+               <a href="../paginasWeb/virabrequim.html">Comprar
+            
+                </a>
+                </button>
+
+                 <!--Filtro de Ar Esportivo-->
+
+            <button ondblclick="" ><img src="../repositorios/IMG/filtro de ar.png" alt="" >
+                <p class="tiOf">Filtro de Ar Esportivo Cônico para Turbo injeção
+                </p></label>
+                <p class="tiDf">
+                 <strong >R$ 60</strong> à vista <br> ou <b>10x de R$ 6,00</b>
+                </p>
+               <a href="../paginasWeb/filtrodeArE.html">Comprar
+            
+                </a>
+                </button>
+
+                    <!--Vela de Ignição-->
+
+            <button ondblclick="" ><img src="../repositorios/IMG/vela.png" alt="" >
+                <p class="tiOf">Vela de Ignição 1 unidade
+                </p></label>
+                <p class="tiDf">
+                 <strong >R$ 20</strong> à vista <br> ou <b>10x de R$ 2,00</b>
+                </p>
+               <a href="../paginasWeb/vela.html">Comprar
+            
+                </a>
+                </button>
+    
+    
+    
+    
+
+    </div>
+    <script src="../repositorios/JS/funçõesMtLoucas.js">
+    </script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+ -- HEXAGEAR --
+
+    Clausula_01-Introdução
+        Este site foi criado por Goiti Ueno, estudante do segundo ano do ensino médio,
+        com o finalidade de estudo sobre programação.
+        Trata-se de um site meramente fictício com o tema de um departamento de autopeças 
+        chamado "HEXAGEAR", quaisquer similaridades com o mundo real é mera 
+        """""conhecidência""""" não havendo quaisquer ligações com os envolvidos.
+
+    Clausula_02-Mecânicas
+        O site proposto apresenta diversos problemas técnicos devido a incopetência de 
+        seu criador, podendo apresentar inúmeras "gambiarras" durante o código.  
+        
+    Clausula_03-Origem da logomarca
+        A logomarca apresentada representa o nome da empresa, sendo "6" o HEXA e a engrenagem "GEAR"
+        sendo 2/3 de uma engrenagem, demourou-se exatamente 1min e 30s para ser criada no Paint.
+
+    Clausula_04-Site 70% honestidade(Créditos)    
+        Este site foi "codado" 70% por seu criador, não havendo a utilização de nehuma inteligência artificial,
+        apenas a consulta no website Youtube e Google, visando o aprimoramento técnico, mas isento de plágio.  
+
+    Clausula_Final
+        Ao ler esta clausula o leitor compreende que esta ciente dos diversos problemas internos no
+        site e concorda que ninguém nasce sabendo. 
+    Clausula_extra
+        A ideia inicial do projeto era um conversor de unidades, mas devido a erros de código
+        e diversas frustrações, converteu-se a ideia para um blog de culinária, que também falhou
+        miserávelmente.

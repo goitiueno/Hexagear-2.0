@@ -1,0 +1,183 @@
+*{
+margin: 0%;
+
+}
+.header{
+    position: sticky;
+    top: 0;
+}
+.nav{
+    height: 130px;
+    position: sticky;
+    top: 0;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color:rgb(255, 255, 255)
+}
+.nav strong{
+    color: rgb(0, 174, 255);
+}
+.nav h1{
+    color: rgb(0, 0, 0);
+    display: flex;
+    font-size: 44px;
+    position: relative;
+    left: 130px;    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.nav h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    display: flex;
+    position: relative;
+    top: 29px;
+    right: 335px;
+    color: rgb(83, 81, 82);
+}
+.nav img{
+  
+    position: relative;
+    width: 60px;
+    right: 950px;
+ 
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(0, 186, 243);
+
+}
+
+.navbar a {
+    color: rgb(255, 255, 255);
+    padding: 10px 100px;
+    text-decoration: none ;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.navbar a:hover{
+    background-color: rgb(0, 124, 161);
+    color:rgb(58, 58, 58);
+    font-weight: bold  ;
+}
+.promocaoUm {
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+   
+   
+    
+    background-color:rgb(243, 243, 243);
+    padding-top: 20px;
+
+}
+
+.promocaoUm img{
+    width: 90px;
+    height: 90px;
+}
+.promocaoUm button{
+    width: 320px ;
+    height: 470px;
+    margin: 10px;
+    position: relative;
+    left: 300px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(216, 215, 215);
+    padding: 0;
+  
+}
+.promocaoUm button:hover{
+ 
+    box-shadow: 1px 1px 5px black;
+
+}
+.loginK{
+    position: relative;
+    left: 300px;
+    top: 20px;
+}
+.entrar{
+    position: relative;
+    left: 305px;
+    top: 10px;
+    color: black;
+
+    
+}
+
+.promocaoUm a{
+    display: flex;
+    height: 15px;
+    width: 70px;
+    border-radius: 5px;
+    align-items: center;
+    position: relative;
+    left: 190px;
+    top: 100px; 
+    background-color: green;
+    color: white;
+    text-align: center;
+    padding: 10px 10px 10px;
+    margin: 10px;
+    text-decoration: none;
+}
+.promocaoUm a:hover{
+background-color: rgb(2, 192, 2);
+}
+.tiOf{
+   font-size: 20px;
+   text-align: start; 
+   position: relative;
+   top: 80px;
+   margin-left: 20px;
+   margin-right: 20px;
+    
+}    
+.tiDf{
+    text-align: start;font-size: 15px;
+    position: relative;
+    left: 20px;
+    top: 100px;
+    
+}
+.tiDf strong{
+    font-size: 30px;
+    color: red;
+}
+
+    
+    
+
+#imgUm{
+    width: 200px;
+    height: 150px;
+}
+/**  Login  **/
+.tl{
+    position: relative;
+    left: 560px;
+    top: 200px;
+}
+.campo{
+    position: relative;
+    left: 540px;
+    top:240px;
+}
+.email{
+    position: relative;
+    bottom: 20px;
+}
+.emaill{
+    position: relative;
+    bottom: 20px;
+}
+.ent{
+    position: relative;
+    top: 260px;
+    left: 540px;
+}
